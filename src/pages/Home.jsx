@@ -20,13 +20,15 @@ const Home = () => {
   )
 
   return (
-    <div className="home">
-      <input ref={input} onChange={handleChangeInput} type="text" />
-      <FilterCategory />
-      <div>
-        {productFilter?.map(prod => (
-          <CardProduct key={prod.id} product={prod} />
-        ))}
+    <div className="home__body">
+      <div className="home__filter-category">
+        <input ref={input} onChange={handleChangeInput} type="text" />
+        <FilterCategory />
+        <div className="home__products">
+          {productFilter?.map(prod => (
+            <CardProduct key={prod.id} product={prod} />
+          ))}
+        </div>
       </div>
     </div>
   )
