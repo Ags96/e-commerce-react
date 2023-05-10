@@ -1,6 +1,7 @@
 import React from "react"
 import {useNavigate} from "react-router-dom"
 import useCrudCart from "../../hooks/useCrudCart"
+import "./styles/cardProduct.css"
 
 const CardProduct = ({product}) => {
   const navigate = useNavigate()
@@ -33,17 +34,19 @@ const CardProduct = ({product}) => {
           alt=""
         />
       </header>
-      <section className="product__section">
-        <h4 className="product__subtitle">{product.brand}</h4>
-        <h3 className="product__subtitle">{product.title}</h3>
-      </section>
-      <div className="product__price">
-        <span className="product__price-label">Price</span>
-        <span className="product__price-value">{product.price}</span>
+      <div className="product__body">
+        <section className="product__section">
+          <h4 className="product__subtitle">{product.brand}</h4>
+          <h3 className="product__title">{product.title}</h3>
+        </section>
+        <div className="product__price">
+          <span className="product__price-label">Price</span>
+          <span className="product__price-value">{product.price}</span>
+        </div>
+        <button onClick={handleBtnClick} className="product__btn">
+          <i className="bx bxs-cart product__btn-icon"></i>
+        </button>
       </div>
-      <button onClick={handleBtnClick} className="product__btn">
-        <i className="bx bxs-cart"></i>
-      </button>
     </article>
   )
 }
