@@ -1,0 +1,29 @@
+.product__header {
+  border-bottom: 1px solid #ccca;
+  padding: 1.3em;
+  width: 100%;
+  aspect-ratio: 1.5;
+  position: relative;
+}
+.product__img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 500ms ease;
+}
+.product__img-1 {
+  opacity: 1;
+}
+.product__img-2 {
+  opacity: 0;
+}
+.product__header:hover .product__img-1 {
+  opacity: 0;
+}
+.product__header:hover .product__img-2 {
+  opacity: 1;
+}
