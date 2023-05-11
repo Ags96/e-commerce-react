@@ -1,0 +1,16 @@
+.similar__products-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.similar__products-title {
+    text-align: center;
+    color: #f85555;
+    padding: 1em;
+}
+.products__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}

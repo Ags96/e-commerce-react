@@ -1,6 +1,7 @@
 .product__info-container {
     background-color: #ccca;
     max-width: 40%;
+    margin-bottom: 2em;
 }
 .brand__title {
     opacity: 0.4;

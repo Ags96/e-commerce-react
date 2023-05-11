@@ -4,3 +4,25 @@
     gap: 2em;
     flex-wrap: wrap;
 }
+.home__title-container{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+.home__subtitle {
+    color: rgba(37, 36, 36, 0.667);
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 5em;
+}
+.home__link {
+    text-decoration: none;
+    color: inherit;
+}
+.red__circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #f85555;
+}
