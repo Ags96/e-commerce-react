@@ -19,13 +19,13 @@ const ProductId = () => {
   return (
     <div>
       <div className="home__title-container">
-      <h4 className="home__subtitle">
-        <Link to={"/"} className="home__link">
-          Home
-        </Link>
-      </h4>
-      <span className="red__circle"></span>
-      <h4>{product?.title}</h4>
+        <h4 className="home__subtitle">
+          <Link to={"/"} className="home__link">
+            Home
+          </Link>
+        </h4>
+        <span className="red__circle"></span>
+        <h4>{product?.title}</h4>
       </div>
       <div className="slider__info-container">
         <SliderImgs product={product} />
