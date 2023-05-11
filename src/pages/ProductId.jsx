@@ -4,7 +4,7 @@ import useFetch from "../hooks/useFetch"
 import ProductIdInfo from "../components/ProductId/ProductIdInfo"
 import SliderImgs from "../components/ProductId/SliderImgs"
 import SimilarProducts from "../components/ProductId/SimilarProducts"
-import './styles/productId.css'
+import "./styles/productId.css"
 
 const ProductId = () => {
   const {id} = useParams()
@@ -14,7 +14,7 @@ const ProductId = () => {
 
   useEffect(() => {
     getProductById()
-  }, [])
+  }, [id])
 
   return (
     <div>
@@ -22,7 +22,7 @@ const ProductId = () => {
         <SliderImgs product={product} />
         <ProductIdInfo product={product} />
       </div>
-        <SimilarProducts product={product} />
+      <SimilarProducts product={product} />
     </div>
   )
 }
