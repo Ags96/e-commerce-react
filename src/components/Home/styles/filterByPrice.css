@@ -1,0 +1,68 @@
+.filter__container {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  column-gap: 1em;
+}
+.selector__filter {
+  cursor: pointer;
+  display: flex;
+  gap: 4em;
+  align-items: center;
+}
+.filter__title {
+  user-select: none;
+  opacity: 0.9;
+}
+.btn-category-down {
+  font-size: 1.5em;
+  font-weight: 600;
+  transition: transform 0.5s ease;
+}
+
+.btn-category-down.bx-chevron-up {
+  transform: rotate(360deg);
+}
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.from__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+  margin: 0.3em 2em;
+}
+.input__from {
+  border: none;
+  width: 6em;
+  margin-top: 0.3em;
+}
+.input__from:focus {
+  outline: none;
+}
+.to__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1em;
+  margin: 0.3em 1.3em;
+}
+.input__to {
+  border: none;
+  width: 6em;
+  margin-top: 0.2em;
+}
+.input__to:focus {
+  outline: none;
+}
+.filter-btn {
+  background: #f85555;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  margin: 1em 0.3em 1.2em auto;
+  padding: 8px 15px;
+}

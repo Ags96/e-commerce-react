@@ -1,7 +1,40 @@
+.input__search-container {
+ display: flex;
+ justify-content: space-around;
+ margin: 8em 5em 3em 10em;
+}
+.input__search-products {
+   border: none;
+}
+.input__search-products:focus {
+  outline: none;
+}
+.input__search-products::placeholder {
+  opacity: 0.7;
+}
+.btn__search-p {
+  font-size: 1.8em;
+  background-color: #f85555;
+  color: #fff;
+  padding: 0.2em 0.9em;
+  border-radius: 0.1em;
+}
+.btn__search-p:hover {
+  filter: brightness(1.2);
+}
 .home__products {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5em;
-  padding: 2em 3em;
+  padding: 2em 0;
+  padding-right: 0;
+  margin-left: 6em;
+}
+.filter__section {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  bottom: 5em;
 }

@@ -43,14 +43,19 @@ const Home = () => {
   return (
     <div className="home__body">
       <div className="home__filter-category">
-        <input ref={input} onChange={handleChangeInput} type="text" />
-        <FilterCategory />
-        <FilterByPrice setFromTo={setFromTo} />
-        <div className="home__products">
-          {productFilter?.map(prod => (
-            <CardProduct key={prod.id} product={prod} />
-          ))}
+        <div className="input__search-container">
+        <input className="input__search-products" ref={input} onChange={handleChangeInput} type="text" placeholder="what are you looking for?" />
+        <button><i className='bx bx-search btn__search-p'></i></button>
         </div>
+        <section className="filter__section">
+            <FilterCategory />
+            <FilterByPrice setFromTo={setFromTo} />
+          </section>
+          <div className="home__products">
+            {productFilter?.map(prod => (
+              <CardProduct key={prod.id} product={prod} />
+            ))}
+          </div>
       </div>
     </div>
   )
