@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./header.css";
+import React from "react"
+import {Link} from "react-router-dom"
+import "./header.css"
 
 const Header = () => {
   return (
@@ -13,18 +13,18 @@ const Header = () => {
       <nav className="header__nav">
         <ul className="header__list">
           <li className="header__items">
-            <Link to="/login">
-              <i className="bx bx-user"></i>
+            <Link to="/login" className="header__item-link">
+              Login
             </Link>
           </li>
           <li className="header__items">
-            <Link to="/register">
-              <i className="bx bx-user-plus"></i>
+            <Link to="/register" className="header__item-link">
+              Register
             </Link>
           </li>
           <li className="header__items">
-            <Link to="/purchases">
-              <i className="bx bx-shopping-bag"></i>
+            <Link to="/purchases" className="header__item-link">
+              Purchases
             </Link>
           </li>
           <li className="header__items ">
@@ -35,7 +35,7 @@ const Header = () => {
         </ul>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
