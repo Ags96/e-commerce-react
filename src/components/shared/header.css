@@ -23,7 +23,14 @@
   display: flex;
   gap: 2em;
 }
-.header__items a {
+.header__items i {
   color: #999;
-  font-size: 25px;
+}
+.header__item-link {
+  color: #999;
+  font-size: 20px;
+  text-decoration: none;
+}
+.header__item-link:hover {
+  text-decoration: underline;
 }
