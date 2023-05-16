@@ -4,8 +4,8 @@ import CardProduct from "../components/Home/CardProduct"
 import "./styles/home.css"
 import FilterCategory from "../components/FilterCat/FilterCategory"
 import FilterByPrice from "../components/Home/FilterByPrice"
-import github from "../assets/img/github.svg"
-import linkedin from "../assets/img/linkedin.svg"
+import Footer from "../components/shared/Footer"
+
 
 const Home = () => {
   const [inputValue, setInputValue] = useState("")
@@ -59,17 +59,6 @@ const Home = () => {
             ))}
           </div>
       </div>
-      <footer className="footer__home-container">
-            <h3 className="footer__copyright">© Academlo 2023</h3>
-            <div className="images__container">
-              <div className="img__container">
-                <a href=""><img className="footer-img" src={github} alt="" /></a>   
-              </div>
-              <div className="img__container">
-                <a href=""><img className="footer-img" src={linkedin} alt="" /></a>   
-              </div>
-            </div>
-      </footer>
     </div>
   )
 }

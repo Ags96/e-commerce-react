@@ -12,6 +12,8 @@
 .product__description {
     line-height: 1.6em;
     padding-bottom: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
     text-align: justify;
 }
 .footer__container {
