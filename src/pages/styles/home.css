@@ -44,3 +44,38 @@
   height: 400px;
   bottom: 5em;
 }
+/** footer styles */
+.footer__home-container {
+  background: #3c3c3b;
+  width: 100%;
+  height: 12em;
+  position: absolute;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__copyright {
+  text-align: center;
+}
+.images__container {
+  display: flex;
+  gap: 2em;
+  margin-top: 1.8em;
+}
+.img__container {
+  width: 4em;
+  height: 4em;
+  background-color: #525251;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-img {
+  width: 2.5em;
+}
+.img__container:hover {
+  filter: brightness(1.2);
+}
