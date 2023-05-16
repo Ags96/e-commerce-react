@@ -11,6 +11,7 @@
   align-items: center;
   gap: 2em;
   width: 100%;
+  background-color: white;
 }
 .header__title {
   color: #f85555;
@@ -31,6 +32,10 @@
   font-size: 20px;
   text-decoration: none;
 }
+.bx-btn {
+  padding-top: 0.2em;
+}
 .header__item-link:hover {
   text-decoration: underline;
 }
+

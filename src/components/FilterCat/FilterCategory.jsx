@@ -30,7 +30,7 @@ const FilterCategory = () => {
   };
 
   return (
-    <article className="filter">
+    <article>
       <div onClick={changeShowCategory} className="selector__category">
         <h3 className="category__title">Category</h3>
         <i

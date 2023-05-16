@@ -3,6 +3,7 @@
   flex-direction: column;
   margin: 1em;
   column-gap: 1em;
+  user-select: none;
 }
 .selector__filter {
   cursor: pointer;
@@ -11,7 +12,6 @@
   align-items: center;
 }
 .filter__title {
-  user-select: none;
   opacity: 0.9;
 }
 .btn-category-down {
@@ -66,3 +66,7 @@
   margin: 1em 0.3em 1.2em auto;
   padding: 8px 15px;
 }
+.filter-btn:hover {
+  filter: brightness(1.2);
+}
+
