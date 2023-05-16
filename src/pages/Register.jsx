@@ -2,6 +2,7 @@ import React from "react"
 import {useForm} from "react-hook-form"
 import useAuthentication from "../hooks/useAuthentication"
 import defaultRegisterValues from "../utils/defaultRegisterValues"
+import './styles/register.css'
 
 const Register = () => {
   const {register, handleSubmit, reset} = useForm()
@@ -14,7 +15,7 @@ const Register = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit(submit)}>
+    <form className="register__form-container" onSubmit={handleSubmit(submit)}>
       <h2>Create new user</h2>
       <div>
         <label htmlFor="firstName">First Name</label>

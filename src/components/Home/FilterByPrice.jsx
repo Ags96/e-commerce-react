@@ -33,11 +33,11 @@ const FilterByPrice = ({ setFromTo }) => {
       {filterShow && (
         <form className="form__container" onSubmit={handleSubmit(submit)}>
           <div className="from__container">
-            <label htmlFor="">From</label>
+            <label htmlFor="from">From</label>
             <input className="input__from" {...register("from")} type="number" id="from" />
           </div>
           <div className="to__container">
-            <label htmlFor="">To</label>
+            <label htmlFor="to">To</label>
             <input className="input__to" {...register("to")} type="number" id="to" />
           </div>
           <button className="filter-btn">Filter Price</button>

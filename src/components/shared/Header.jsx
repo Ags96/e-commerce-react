@@ -29,7 +29,7 @@ const Header = () => {
           </li>
           <li className="header__items ">
             <Link to="/cart">
-              <i className="bx bx-cart"></i>
+              <i className="bx bx-cart bx-btn"></i>
             </Link>
           </li>
         </ul>

@@ -10,6 +10,7 @@ import Register from "./pages/Register"
 import Login from "./pages/Login"
 import Cart from "./pages/Cart"
 import Purchases from "./pages/Purchases"
+import Footer from "./components/shared/Footer"
 
 function App() {
   const dispatch = useDispatch()
@@ -29,6 +30,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/purchases" element={<Purchases />} />
       </Routes>
+      <Footer/>
     </div>
   )
 }

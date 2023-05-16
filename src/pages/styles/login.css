@@ -1,0 +1,43 @@
+.login__container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+    
+}
+.login__title {
+    text-align: justify;
+    font-weight: 800;
+    line-height: 1.5em;
+    opacity: 0.8;
+}
+.form__title {
+
+}
+.email__container {
+
+}
+.label__email {
+
+}
+.input__email {
+
+}
+.password__container {
+
+}
+.label__password {
+
+}
+.input__password {
+
+}
+.login__login-btn {
+
+}
