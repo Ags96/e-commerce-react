@@ -56,11 +56,11 @@ const Home = () => {
         </button>
       </div>
       <div className="home__filter-category">
-        <section className="filter__section show__filter__section">
+        <section className="filter__section child-1">
           <FilterCategory />
           <FilterByPrice setFromTo={setFromTo} />
         </section>
-        <div className="home__products">
+        <div className="home__products child-2">
           {productFilter?.map(prod => (
             <CardProduct key={prod.id} product={prod} />
           ))}
