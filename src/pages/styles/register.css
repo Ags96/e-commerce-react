@@ -1,0 +1,20 @@
+.register {
+  position: absolute;
+  height: 100vh;
+  /* display: grid;
+  grid-template-columns: 1fr 100px;
+  grid-template-areas:
+    "form"
+    "footer"; */
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/* .child-1 {
+  grid-area: form;
+}
+.child-2 {
+  grid-area: footer;
+} */

@@ -5,9 +5,15 @@
 }
 html {
   font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  height: 100%;
 }
 body {
   margin: 0;
+  position: relative;
+  padding-bottom: 16em;
+  min-height: 100%;
+  box-sizing: inherit;
 }
 h1,
 h2,
