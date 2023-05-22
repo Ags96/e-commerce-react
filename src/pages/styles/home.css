@@ -1,12 +1,11 @@
 .input__search-container {
- display: flex;
- justify-content: center;
- margin: 8em 5em 3em 10em;
+  display: flex;
+  justify-content: center;
+  margin: 8em 5em 3em 10em;
 }
 .input__search-products {
-   border: 1px solid rgba(0, 0, 0, 0.5);
-   width: 25em;
-   border-right: none;
+  border: 1px solid #ccca;
+  width: 25em;
 }
 .input__search-products:focus {
   outline: none;
@@ -27,6 +26,11 @@
 .btn__search-p:hover {
   filter: brightness(1.2);
 }
+/* .home__filter-category {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-areas: "filter__section home__products";
+} */
 .home__products {
   display: flex;
   justify-content: center;
@@ -44,4 +48,3 @@
   height: 400px;
   bottom: 5em;
 }
-

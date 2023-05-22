@@ -17,7 +17,7 @@
 .btn-category-down {
   font-size: 1.5em;
   font-weight: 600;
-  transition: transform 0.5s ease;
+  transition: transform 1s ease;
 }
 
 .btn-category-down.bx-chevron-up {
@@ -36,9 +36,10 @@
   margin: 0.3em 2em;
 }
 .input__from {
-  border: none;
-  width: 6em;
   margin-top: 0.3em;
+  border: 1px solid #ccca;
+  width: 8em;
+  height: 2em;
 }
 .input__from:focus {
   outline: none;
@@ -51,9 +52,10 @@
   margin: 0.3em 1.3em;
 }
 .input__to {
-  border: none;
-  width: 6em;
+  border: 1px solid #ccca;
+  width: 8em;
   margin-top: 0.2em;
+  height: 2em;
 }
 .input__to:focus {
   outline: none;
@@ -69,4 +71,3 @@
 .filter-btn:hover {
   filter: brightness(1.2);
 }
-
