@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header__container">
       <h1 className="header__logo">
         <Link to="/" className="header__title">
-          e-commerce
+          <img className="header__logo" src="e-commerce.png" alt="" />
         </Link>
       </h1>
       <nav className="header__nav">

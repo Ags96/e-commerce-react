@@ -1,7 +1,6 @@
 .product {
   width: 100%;
   max-width: 320px;
-  border: 1px solid #ccca;
   background-color: white;
   transition: transform 200ms ease;
   cursor: pointer;

@@ -14,6 +14,7 @@ body {
   padding-bottom: 16em;
   min-height: 100%;
   box-sizing: inherit;
+  background-color: rgb(250, 250, 250);
 }
 h1,
 h2,
