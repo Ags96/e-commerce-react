@@ -5,7 +5,7 @@ const ProductPurchase = ({prodPurchase}) => {
     <article className="purchases">
       <img
         className="purchases__img"
-        src={prodPurchase.product.images[0].url}
+        src={prodPurchase.product?.productImgs[0].url}
         alt=""
       />
       <h3 className="purchases__title">{prodPurchase.product.title}</h3>

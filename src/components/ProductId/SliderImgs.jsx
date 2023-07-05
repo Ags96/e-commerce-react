@@ -35,7 +35,7 @@ const SliderImgs = ({ product }) => {
         &lt;
       </button>
       <div style={objStyle} className="slider__interior">
-        {product?.images.map((imgInfo) => (
+        {product?.productImgs.map((imgInfo) => (
           <div key={imgInfo.id} className="slider__img-container">
             <img className="slider__img" src={imgInfo.url} alt="" />
           </div>
@@ -45,7 +45,7 @@ const SliderImgs = ({ product }) => {
         &gt;
       </button>
       <div className="container__footer-slider">
-        {product?.images.map((imgInfo, index) => (
+        {product?.productImgs.map((imgInfo, index) => (
           <div key={imgInfo.id} className="small__imgs-container">
             <img
               className={`small__img ${

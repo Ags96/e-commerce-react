@@ -25,13 +25,13 @@ const CardProduct = ({product}) => {
       <header className="product__header">
         <img
           className="product__img product__img-1"
-          src={product.images[0].url}
-          alt=""
+          src={product?.productImgs[0].url}
+          alt={product.title}
         />
         <img
           className="product__img product__img-2"
-          src={product.images[1].url}
-          alt=""
+          src={product?.productImgs[1].url}
+          alt={product.title}
         />
       </header>
       <div className="product__body">

@@ -13,8 +13,8 @@ const ProductInCart = ({prodCart}) => {
       <header className="prodcart__header">
         <img
           className="prodcart__img"
-          src={prodCart.product.images[0].url}
-          alt=""
+          src={prodCart?.product?.productImgs[0]?.url}
+          alt={prodCart?.product.title}
         />
       </header>
       <h3 className="prodcart__title">{prodCart.product.title}</h3>

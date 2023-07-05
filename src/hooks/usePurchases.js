@@ -5,7 +5,8 @@ import {useDispatch} from "react-redux"
 import {useState} from "react"
 
 const usePurchases = () => {
-  const url = "https://e-commerce-api-v2.academlo.tech/api/v1/purchases"
+  const URL_BASE = import.meta.env.VITE_REACT_APP_URL;
+  const url = `${URL_BASE}/purchase`
 
   const [purchases, setPurchases] = useState()
 
